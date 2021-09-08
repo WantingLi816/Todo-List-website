@@ -229,7 +229,7 @@ const controller = {
     */
     turnOnUpdatingMode: function(event) {
         const itemLabel = event.target;
-        const updateItemInput = itemLabel.parentNode.querySelector("-update-item-input");
+        const updateItemInput = itemLabel.parentNode.querySelector(".update-item-input");
         view.hideDOMElement(itemLabel);
         view.displayDOMElement(updateItemInput);
         updateItemInput.focus();
